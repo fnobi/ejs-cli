@@ -1,6 +1,4 @@
 ejs-cli
-
-ejs compile client.
 =======
 
 ejs compile client.
