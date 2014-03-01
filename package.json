@@ -1,7 +1,7 @@
 {
   "name": "ejs-cli",
   "description": "ejs compile client.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
@@ -15,7 +15,8 @@
     "optimist": "~0.5.2",
     "colors": "~0.6.1",
     "ejs": "~0.8.5",
-    "async": "~0.2.10"
+    "async": "~0.2.10",
+    "glob": "~3.2.9"
   },
   "devDependencies": {
     "chai": "~1.6.1",
