@@ -22,3 +22,7 @@ git clone git://github.com/fnobi/ejs-cli.git
 ```
 ejs-cli example.ejs > example.html
 ```
+
+```
+ejs-cli "*.ejs" --out html --options options.json
+```
