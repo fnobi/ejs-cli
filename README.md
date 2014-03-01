@@ -24,5 +24,5 @@ ejs-cli example.ejs > example.html
 ```
 
 ```
-ejs-cli "*.ejs" --out html --options options.json
+ejs-cli "*.ejs" --out dest/ --options options.json 
 ```
