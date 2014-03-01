@@ -20,9 +20,9 @@ git clone git://github.com/fnobi/ejs-cli.git
 ## usage
 
 ```
-ejs-cli example.ejs > example.html
+ejs-cli "*.ejs" --out dest/ --options options.json 
 ```
 
 ```
-ejs-cli "*.ejs" --out dest/ --options options.json 
+cat example.ejs | ejs-cli example.ejs > example.html
 ```
