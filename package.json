@@ -1,7 +1,7 @@
 {
   "name": "ejs-cli",
   "description": "ejs compile client.",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
