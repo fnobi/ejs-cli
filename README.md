@@ -23,6 +23,12 @@ git clone git://github.com/fnobi/ejs-cli.git
 ejs-cli "*.ejs" --out dest/ --options options.json 
 ```
 
+
+```bash
+ejs-cli --base-dir src/ "*.ejs" --out dest/
+# renders all of the files in src/ and outputs them to dest/
+```
+
 ```
 cat example.ejs | ejs-cli example.ejs > example.html
 ```
