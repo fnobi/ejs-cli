@@ -14,7 +14,7 @@
   "dependencies": {
     "optimist": "~0.5.2",
     "colors": "~0.6.1",
-    "ejs": "2.4.*",
+    "ejs": "2.x",
     "async": "~0.2.10",
     "glob": "~3.2.9"
   },
