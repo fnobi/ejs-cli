@@ -16,7 +16,8 @@
     "colors": "~0.6.1",
     "ejs": "2.4.*",
     "async": "~0.2.10",
-    "glob": "~3.2.9"
+    "glob": "~3.2.9",
+    "mkdirp": "^0.5.1"
   },
   "devDependencies": {
     "chai": "~1.6.1",
