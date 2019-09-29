@@ -3,6 +3,10 @@
   "description": "ejs compile client.",
   "version": "2.1.0",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/fnobi/ejs-cli.git"
+  }
   "scripts": {
     "test": "mocha"
   },
