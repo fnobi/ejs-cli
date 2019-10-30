@@ -1,1 +1,1 @@
-module.exports = require('./lib/ejs-cli');
+module.exports = require('./lib/cli');
