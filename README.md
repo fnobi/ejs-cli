@@ -25,7 +25,8 @@ Options:
   -f, --file      give ejs template file path.                  [string]
   -b, --base-dir  base directory that -f is relative to.        [string]  [default: "./"]
   -o, --out       file to write compiled.                       [string]
-  -O, --options   option variables (file path or JSON string).  [string]
+  -O, --options   option variables (file path or JSON string).  [string] (actually the 'data' parameter of EJS library)
+  -C, --config    config variables (file path or JSON string).  [string] (actually the 'options' parameter of EJS library)
 ```
 
 ### examples
@@ -38,6 +39,16 @@ ejs-cli "*.ejs" --out dest/ --options options.json
 ```bash
 ejs-cli --base-dir src/ "*.ejs" --out dest/
 # renders all of the files in src/ and outputs them to dest/
+```
+
+```bash
+ejs-cli "myfile.ejs" --config "{\"delimiter\":\"$\"}" --options options.json
+# renders the "myfile.ejs" file with inline config (set the custom delimiter "$") and an options.json data file
+```
+
+```bash
+ejs-cli "myfile.ejs" --config config.json --options "{\"test\":\"123\"}"
+# renders the "myfile.ejs" file with config.json config file and inline data
 ```
 
 ```bash
