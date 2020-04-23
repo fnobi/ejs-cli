@@ -32,13 +32,21 @@ Options:
 
 ```bash
 ejs-cli "*.ejs" --out dest/ --options options.json
-# renders all of the files in the current working directory and outputs them to dest/
+# renders the *.ejs files in the current working directory and outputs compiled files to dest/
 ```
 
 ```bash
 ejs-cli --base-dir src/ "*.ejs" --out dest/
-# renders all of the files in src/ and outputs them to dest/
+# renders the *.ejs files in src/ and outputs compiled files to dest/
 ```
+
+```bash
+ejs-cli --base-dir src/ "**/*.ejs" --out dest/
+# renders the *.ejs files in src/ and its subdirectories and outputs compiled files to dest/
+```
+
+Make sure to quote the file pattern, otherwise, your shell will expand it before it is passed to ejs-cli.
+This behaviour would prevent ejs-cli from walking down the tree in this latest exemple.
 
 ```bash
 cat example.ejs | ejs-cli example.ejs > example.html
