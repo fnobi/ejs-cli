@@ -7,24 +7,16 @@
     "type": "git",
     "url": "git://github.com/fnobi/ejs-cli.git"
   },
-  "scripts": {
-    "test": "mocha"
-  },
   "bin": {
     "ejs-cli": "bin/ejs-cli"
   },
   "author": "Fujisawa Shin",
   "license": "BSD",
   "dependencies": {
-    "async": "^3.2.0",
-    "colors": "^1.4.0",
-    "ejs": "^2.7.4",
-    "glob": "^7.1.6",
-    "mkdirp": "^0.5.5",
-    "optimist": "^0.6.1"
-  },
-  "devDependencies": {
-    "chai": "^4.2.0",
-    "mocha": "^6.2.3"
+    "async": "^3.2.2",
+    "ejs": "^3.1.6",
+    "glob": "^7.2.0",
+    "mkdirp": "^1.0.4",
+    "yargs": "^17.2.1"
   }
 }
