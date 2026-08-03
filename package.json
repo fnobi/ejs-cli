@@ -19,5 +19,8 @@
     "glob": "^13.0.6",
     "mkdirp": "^1.0.4",
     "yargs": "^17.2.1"
+  },
+  "overrides": {
+    "brace-expansion": "2.1.2"
   }
 }
